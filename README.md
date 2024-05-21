@@ -18,7 +18,10 @@ The geographic political landscape has changed several times since 1896. This wi
 The results and medal datasets have an issue where team events have combined athlete data, or it is missing all together. Moving forward, web scraping or back checking could fix this issue, but for the purpose of this project, I will be proceeding without backfilling missing data. 
 ### Process Queries 
 #### Uploading Data
+Uploaded data from downloaded CSV files, one of them being compressed zip file. Then created tables to alter while leaving raw data unaltered. [here](https://github.com/abealka/Olympics-Project/blob/main/olympic_data_upload.sql)
 #### Checking For Duplicates
+[Check for duplicates](https://github.com/abealka/Olympics-Project/blob/main/olympic_data_duplicates.sql) using cte's.
 #### Standardizing Data
+[Standardizing the Data](https://github.com/abealka/Olympics-Project/blob/main/olympic_data_standardize.sql) for all of the columns in all of the tables. This has to be done before moving on to analysis. 
 ## Next Steps
-I’m currently working on my analysis in MySQL and creating projections through Tableau. This will be updated upon completion. 
+I’m currently working on analysis in MySQL and creating projections through Tableau. This will be updated upon completion. 
